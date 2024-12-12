@@ -1,0 +1,14 @@
+{
+    "name": "amphora-test",
+    "version": "1.0.0",
+    "scripts": {
+      "test": "cypress run"
+    },
+    "dependencies": {
+      "cypress": "^10.3.1",
+      "cypress-cucumber-preprocessor": "^4.3.1"
+    },
+    "cypress-cucumber-preprocessor": {
+      "nonGlobalStepDefinitions": true
+    }
+  }
